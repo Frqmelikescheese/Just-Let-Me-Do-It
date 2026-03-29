@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DCD",
+    "CNC",
+    "DCD"
+  ],
+  "key": {
+    "D": "minecraft:diamond",
+    "C": "minecraft:copper_ingot",
+    "N": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "just_let_me_do_it:copper_golem_core",
+    "count": 1
+  }
+}

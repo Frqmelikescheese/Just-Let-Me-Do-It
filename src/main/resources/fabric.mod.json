@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "just_let_me_do_it",
+  "version": "${version}",
+  "name": "Just let me do it",
+  "description": "",
+"authors": ["h!frqme"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/just_let_me_do_it/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.frqme.just_let_me_do_it.client.Just_let_me_do_itDataGenerator"
+    ],
+    "client": [
+      "com.frqme.just_let_me_do_it.client.Just_let_me_do_itClient"
+    ],
+    "main": [
+      "com.frqme.just_let_me_do_it.Just_let_me_do_it"
+    ]
+  },
+  "mixins": [
+    "just_let_me_do_it.mixins.json",
+    {
+      "config": "just_let_me_do_it.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

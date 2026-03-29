@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "just_let_me_do_it:item/copper_golem_core"
+  }
+}
