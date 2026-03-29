@@ -1,5 +1,5 @@
 🏗️ Copper Golem Builder (AI-Powered Minecraft Construction)
-Copper Golem Builder is a Minecraft mod that brings an elite architectural AI to your survival world. By giving a Copper Golem an API key, it becomes MasterBuilder-9000—capable of interpreting natural language prompts and constructing complex structures block-by-block in real-time. 🤖🧱
+Copper Golem Builder is a Minecraft mod that brings an elite architectural AI to your survival world. By giving a Copper Golem an API key,it becomes capable of interpreting natural language prompts and constructing complex structures block-by-block in real-time. 🤖🧱
 
 ✨ Features
 Natural Language to Build: Just tell your golem what to build (e.g., "Build a small spruce cabin with a chimney") and watch it work.
