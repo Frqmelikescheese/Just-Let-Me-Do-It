@@ -1,27 +1,67 @@
-🏗️ Copper Golem Builder (AI-Powered Minecraft Construction)
-Copper Golem Builder is a Minecraft mod that brings an elite architectural AI to your survival world. By giving a Copper Golem an API key,it becomes capable of interpreting natural language prompts and constructing complex structures block-by-block in real-time. 🤖🧱
+🤖 Just Let Me Do It: The AI-Powered Copper Golem! 🧱
+Just Let Me Do It is a revolutionary Fabric mod that brings the fan-favorite Copper Golem to life with a "brain" powered by OpenRouter AI. No longer just a random button-pusher, this golem understands your natural language commands, architectures complex structures, and builds them block-by-block in real-time. ⚡
 
-✨ Features
-Natural Language to Build: Just tell your golem what to build (e.g., "Build a small spruce cabin with a chimney") and watch it work.
+Heavily inspired by Purpler’s AI Golem video, this mod bridges the gap between Large Language Models and blocky reality. ✨
 
-Multi-Model Support: Toggle between Claude 3.5 Sonnet/Haiku and Gemini 2.5 Flash/Pro via OpenRouter.
+🌟 Key Features ⚙️
+🧠 LLM-Integrated Brain: Powered by the OpenRouter API, the Copper Golem processes complex instructions using elite models like Claude 3.5 Sonnet and Gemini 2.0 Pro.
 
-Smart Property Handling: Automatically handles complex blockstate properties like facing, axis, half, and shape for perfect stairs, logs, and redstone.
+🏗️ Master Architect: Ask your Golem to "build a 3x3 piston door," "a medieval cottage," or "a spiral staircase." It calculates every blockstate, facing, and axis property automatically.
 
-Asynchronous Construction: The golem parses JSON build steps and executes them in order (Y-ascending) to ensure structural integrity.
+💎 The Golem Core: Bring your mechanical friend to life by crafting a high-tier Copper Golem Core. A premium companion requires a premium heart!
 
-In-Game Configuration: Easy-to-use UI for setting your API Key and selecting your preferred AI model.
+💬 Prompt-Based Construction: Open a sleek custom UI to give your Golem tasks. No complex coding or schematics required—just tell it what you want.
 
-🚀 Getting Started
-Craft/Summon a Copper Golem.
+🛠️ Dynamic Model Swapping: Easily switch between different AI models (Claude, Gemini, GPT) directly through the in-game interface or config file.
 
-Right-click the golem to open the configuration menu.
+⚡ Smart Sorting: The Golem automatically sorts build steps by Y-level (bottom-to-top) so structures never have floating blocks during construction.
 
-Set your API Key (OpenRouter) and select a model.
+🧪 Crafting the Core 🛠️
+To manifest your Golem, you must first assemble the Copper Golem Core using this high-energy pattern:
 
-Give a prompt and clear some space!
+Materials:
 
-🛠️ Technical Overview
-The mod uses a GolemAIBrain system to communicate with the OpenRouter API. It sends a specialized system prompt that forces the AI to output a raw JSON array of block data. This data is then parsed into BuildStep records and added to the golem's construction queue.
+💎 D = Diamond
 
-Note: Requires an active internet connection and an OpenRouter API key.
+🧡 C = Copper Ingot
+
+🌟 N = Nether Star
+
+Crafting Table Pattern:
+| | | |
+| :---: | :---: | :---: |
+| D | C | D |
+| C | N | C |
+| D | C | D |
+
+⚙️ Setup & Configuration 📂
+To unleash the full potential of your Golem, you will need an OpenRouter API Key.
+
+Launch the mod once to generate the necessary files. 🚀
+
+Right-Click your Copper Golem in-game to open the AI Settings Menu.
+
+Paste your API key into the field. 🔑
+
+Select your preferred model (Default is anthropic/claude-sonnet-4).
+
+Start Building! Clear a flat area, give him a prompt, and just let him do it.
+
+📦 Requirements 📌
+Fabric Loader 🛠️
+
+Fabric API ⛓️
+
+Active Internet Connection 🌐 (Required for the Golem to "think" via API)
+
+🧑‍💻 Credits 🎖️
+Frqme – Lead Developer & AI System Architect.
+
+Purpler – Original concept inspiration from the "I gave Minecraft Mobs an AI Brain" video. 📺
+
+OpenRouter – For providing the seamless API gateway to the world's most powerful LLMs.
+
+📜 License ⚖️
+This mod is released under the GNU General Public License v2.0. You are free to share, modify, and redistribute this mod, provided you keep the same license and credit the original author. 📝
+
+Created with 🤍 by frqme
